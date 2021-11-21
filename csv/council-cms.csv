@@ -1,0 +1,386 @@
+Council website,CMS,Method
+www.aberdeencity.gov.uk,Drupal,Manual
+www.aberdeenshire.gov.uk/,Umbraco,Manual
+www.adur-worthing.gov.uk,T4,Manual
+www.allerdale.gov.uk,Django Framework,Automatically detected
+www.ambervalley.gov.uk,Umbraco,Automatically detected
+www.anglesey.gov.uk,Contensis CMS,Automatically detected
+www.angus.gov.uk,Drupal,Manual
+www.argyll-bute.gov.uk,Drupal,Manual
+www.arun.gov.uk,VerseOne,Manual
+www.ashfield.gov.uk,Umbraco,Manual
+www.ashford.gov.uk,Umbraco,Automatically detected
+www.aylesburyvaledc.gov.uk,Drupal,Automatically detected
+www.babergh.gov.uk,SilverStripe CMS,Automatically detected
+www.barnet.gov.uk,Drupal,Manual
+www.barnsley.gov.uk,Umbraco,Automatically detected
+www.barrowbc.gov.uk,Easysite,Automatically detected
+www.basildon.gov.uk,GOSS iCM,Manual
+www.basingstoke.gov.uk,Smart Media Intelligent WebCentre,Manual
+www.bassetlaw.gov.uk,Umbraco,Automatically detected
+www.bathnes.gov.uk,Drupal,Automatically detected
+www.bedford.gov.uk,Microsoft Portals,Manual
+www.bexley.gov.uk,Drupal,Automatically detected
+www.birmingham.gov.uk,Jadu CMS,Automatically detected
+www.blaby.gov.uk,Umbraco,Automatically detected
+www.blackburn.gov.uk,Drupal,Automatically detected
+www.blackpool.gov.uk,Contensis CMS,Automatically detected
+www.blaenau-gwent.gov.uk,TYPO3,Automatically detected
+www.bolsover.gov.uk,Joomla,Automatically detected
+www.bolton.gov.uk,Jadu CMS,Manual
+www.boroughofpoole.com,Contensis CMS,Automatically detected
+www.bournemouth.gov.uk,Contensis CMS,Automatically detected
+www.bracknell-forest.gov.uk,Drupal,Automatically detected
+www.bradford.gov.uk,Umbraco,Manual
+www.braintree.gov.uk,Jadu CMS,Manual
+www.breckland.gov.uk,GOSS iCM,Manual
+www.brent.gov.uk,Umbraco,Automatically detected
+www.brentwood.gov.uk,Liferay,Automatically detected
+www.bridgend.gov.uk,Umbraco,Automatically detected
+www.brighton-hove.gov.uk,Drupal,Automatically detected
+www.bristol.gov.uk,Liferay,Automatically detected
+www.broadland.gov.uk,Jadu CMS,Manual
+www.bromley.gov.uk,Jadu CMS,Automatically detected
+www.bromsgrove.gov.uk,Umbraco,Automatically detected
+www.broxbourne.gov.uk,Jadu CMS,Manual
+www.broxtowe.gov.uk,Umbraco,Automatically detected
+www.buckscc.gov.uk,Wagtail,Automatically detected
+www.burnley.gov.uk,Drupal,Automatically detected
+www.bury.gov.uk,GOSS iCM,Automatically detected
+www.caerphilly.gov.uk,Kentico,Automatically detected
+www.calderdale.gov.uk,Drupal,Manual
+www.cambridge.gov.uk,Umbraco,Automatically detected
+www.cambridgeshire.gov.uk,i3CMS,Manual
+www.camden.gov.uk,Liferay,Automatically detected
+www.cannockchasedc.gov.uk,Drupal,Automatically detected
+www.canterbury.gov.uk,Gatsby,Automatically detected
+www.cardiff.gov.uk,SharePoint,Automatically detected
+www.carlisle.gov.uk,DNN,Automatically detected
+www.carmarthenshire.gov.uk,Umbraco,Automatically detected
+www.castlepoint.gov.uk,VerseOne,Manual
+www.centralbedfordshire.gov.uk,Jadu CMS,Automatically detected
+www.ceredigion.gov.uk,Umbraco,Automatically detected
+www.charnwood.gov.uk,Cuttlefish,Manual
+www.chelmsford.gov.uk,Easysite,Automatically detected
+www.cheltenham.gov.uk,Jadu CMS,Automatically detected
+www.cherwell.gov.uk,Jadu CMS,Automatically detected
+www.cheshireeast.gov.uk,Contensis CMS,Automatically detected
+www.cheshirewestandchester.gov.uk,Contensis CMS,Automatically detected
+www.chesterfield.gov.uk,Umbraco,Automatically detected
+www.chichester.gov.uk,GOSS iCM,Automatically detected
+www.chiltern.gov.uk,GOSS iCM,Automatically detected
+www.chorley.gov.uk,GOSS iCM,Manual
+www.christchurch.gov.uk,Contensis CMS,Manual
+www.cityoflondon.gov.uk,Sharepoint,Manual
+www.colchester.gov.uk,Microsoft Portals,Manual
+www.conwy.gov.uk,Contensis CMS,Automatically detected
+www.copeland.gov.uk,Drupal,Automatically detected
+www.corby.gov.uk,Drupal,Automatically detected
+www.cornwall.gov.uk,Umbraco,Automatically detected
+www.cotswold.gov.uk,Umbraco,Manual
+www.coventry.gov.uk,Jadu CMS,Automatically detected
+www.cravendc.gov.uk,Umbraco,Automatically detected
+www.crawley.gov.uk,Drupal,Automatically detected
+www.croydon.gov.uk,Drupal,Automatically detected
+www.cumbria.gov.uk,SDL Tridion,Automatically detected
+www.dacorum.gov.uk,Progress Sitefinity,Manual
+www.darlington.gov.uk,Umbraco,Manual
+www.dartford.gov.uk,Squiz,Manual
+www.daventrydc.gov.uk,Easysite,Automatically detected
+www.denbighshire.gov.uk,Contensis CMS,Automatically detected
+www.derby.gov.uk,Jadu CMS,Manual
+www.derbyshire.gov.uk,Contensis CMS,Automatically detected
+www.derbyshiredales.gov.uk,Joomla,Automatically detected
+www.devon.gov.uk,WordPress,Automatically detected
+www.doncaster.gov.uk,Orchard,Automatically detected
+www.dorsetcouncil.gov.uk,Liferay,Automatically detected
+www.dover.gov.uk,Contensis CMS,Automatically detected
+www.dudley.gov.uk,Umbraco,Automatically detected
+www.dumgal.gov.uk,GOSS iCM,Manual
+www.dundeecity.gov.uk,Drupal,Manual
+www.durham.gov.uk,GOSS iCM,Automatically detected
+www.e-lindsey.gov.uk,GOSS iCM,Manual
+www.ealing.gov.uk,Jadu CMS,Automatically detected
+www.east-northamptonshire.gov.uk,Jadu CMS,Automatically detected
+www.eastcambs.gov.uk,Drupal,Automatically detected
+www.eastdevon.gov.uk,Umbraco,Automatically detected
+www.easthants.gov.uk,Drupal,Automatically detected
+www.eastherts.gov.uk,Drupal,Automatically detected
+www.eastleigh.gov.uk,Umbraco,Automatically detected
+www.eastlothian.gov.uk,Jadu CMS,Manual
+www.eastrenfrewshire.gov.uk,GOSS iCM,Manual
+www.eastriding.gov.uk,Easysite,Automatically detected
+www.eaststaffsbc.gov.uk,Drupal,Automatically detected
+www.eastsuffolk.gov.uk,SilverStripe CMS,Manual
+www.eastsussex.gov.uk,Umbraco,Automatically detected
+www.eden.gov.uk,Umbraco,Automatically detected
+www.elmbridge.gov.uk,Easysite,Automatically detected
+www.eppingforestdc.gov.uk,WordPress,Automatically detected
+www.epsom-ewell.gov.uk,Drupal,Automatically detected
+www.erewash.gov.uk,Joomla,Automatically detected
+www.essex.gov.uk/Pages/Default.aspx,Contentful CMS,Automatically detected
+www.exeter.gov.uk,Umbraco,Automatically detected
+www.fareham.gov.uk,In house development,Manual
+www.fdean.gov.uk,Umbraco,Manual
+www.fenland.gov.uk,GOSS iCM,Manual
+www.fife.gov.uk,Squiz,Manual
+www.flintshire.gov.uk,Contensis CMS,Manual
+www.folkestone-hythe.gov.uk,GOSS iCM,Manual
+www.forest-heath.gov.uk,CommonSpot,Automatically detected
+www.fylde.gov.uk,WordPress,Automatically detected
+www.gateshead.gov.uk,GOSS iCM,Manual
+www.gedling.gov.uk,Ruby on Rails,Automatically detected
+www.glasgow.gov.uk,GOSS iCM,Manual
+www.gloucester.gov.uk,Umbraco,Automatically detected
+www.gloucestershire.gov.uk,Umbraco,Automatically detected
+www.gosport.gov.uk,GOSS iCM,Manual
+www.gravesham.gov.uk,Squiz,Automatically detected
+www.great-yarmouth.gov.uk,GOSS iCM,Automatically detected
+www.guildford.gov.uk,GOSS iCM,Manual
+www.gwynedd.gov.uk,Contensis CMS,Automatically detected
+www.hackney.gov.uk,GOSS iCM,Manual
+www.hambleton.gov.uk,Jadu CMS,Manual
+www.hants.gov.uk,SiteCore,Automatically detected
+www.harborough.gov.uk,Jadu CMS,Automatically detected
+www.haringey.gov.uk,Drupal,Automatically detected
+www.harlow.gov.uk,Drupal,Automatically detected
+www.harrogate.gov.uk,Jadu CMS,Manual
+www.harrow.gov.uk,Jadu CMS,Manual
+www.hart.gov.uk,Drupal,Automatically detected
+www.hartlepool.gov.uk,Jadu CMS,Automatically detected
+www.hastings.gov.uk,Alterian Content Manager,Manual
+www.havant.gov.uk,Drupal,Automatically detected
+www.havering.gov.uk,Jadu CMS,Automatically detected
+www.herefordshire.gov.uk,Jadu CMS,Manual
+www.hertsdirect.org,Contensis CMS,Automatically detected
+www.hertsmere.gov.uk,Contensis CMS,Automatically detected
+www.highland.gov.uk,Jadu CMS,Manual
+www.highpeak.gov.uk,GOSS iCM,Automatically detected
+www.hillingdon.gov.uk,GOSS iCM,Automatically detected
+www.hinckley-bosworth.gov.uk,Jadu CMS,Automatically detected
+www.horsham.gov.uk,Squiz,Automatically detected
+www.hounslow.gov.uk,Jadu CMS,Automatically detected
+www.hullcc.gov.uk,Drupal,Manual
+www.huntingdonshire.gov.uk,Umbraco,Automatically detected
+www.hyndburnbc.gov.uk,WordPress,Automatically detected
+www.iow.gov.uk,Opentext,Manual
+www.ipswich.gov.uk,Drupal,Automatically detected
+www.islington.gov.uk/Pages/default.aspx,SiteCore,Automatically detected
+www.kent.gov.uk,Squiz,Automatically detected
+www.kettering.gov.uk,Jadu CMS,Automatically detected
+www.kingston.gov.uk,Jadu CMS,Manual
+www.kirklees.gov.uk,CMS Not Detected,
+www.knowsley.gov.uk,Kentico,Automatically detected
+www.lambeth.gov.uk,Drupal,Automatically detected
+www.lancashire.gov.uk,Umbraco,Automatically detected
+www.lancaster.gov.uk,Web-labs,Manual
+www.lbbd.gov.uk,Drupal,Automatically detected
+www.lbhf.gov.uk,Drupal,Automatically detected
+www.leeds.gov.uk,Sharepoint,Manual
+www.leicester.gov.uk,Umbraco,Automatically detected
+www.leicestershire.gov.uk,Drupal,Automatically detected
+www.lewes-eastbourne.gov.uk,Easysite,Automatically detected
+www.lewisham.gov.uk,SiteCore,Automatically detected
+www.lichfielddc.gov.uk,Jadu CMS,Manual
+www.lincoln.gov.uk,Jadu CMS,Manual
+www.lincolnshire.gov.uk,Jadu CMS,Manual
+www.liverpool.gov.uk,Umbraco,Automatically detected
+www.luton.gov.uk,iAPPS,Manual
+www.maidstone.gov.uk,Squiz,Automatically detected
+www.maldon.gov.uk,Jadu CMS,Automatically detected
+www.malvernhills.gov.uk,Joomla,Automatically detected
+www.manchester.gov.uk,Jadu CMS,Automatically detected
+www.mansfield.gov.uk,Jadu CMS,Manual
+www.medway.gov.uk,Jadu CMS,Automatically detected
+www.melton.gov.uk,Jadu CMS,Manual
+www.mendip.gov.uk,GOSS iCM,Manual
+www.merthyr.gov.uk,Umbraco,Automatically detected
+www.merton.gov.uk,SharePoint,Automatically detected
+www.middevon.gov.uk,Umbraco,Manual
+www.middlesbrough.gov.uk,Drupal,Automatically detected
+www.midlothian.gov.uk,Jadu CMS,Manual
+www.midsuffolk.gov.uk,SilverStripe CMS,Automatically detected
+www.midsussex.gov.uk,Umbraco,Automatically detected
+www.milton-keynes.gov.uk,Web-labs,Manual
+www.molevalley.gov.uk,Drupal,Manual
+www.monmouthshire.gov.uk,WordPress,Automatically detected
+www.mybostonuk.com,WordPress,Automatically detected
+www.n-kesteven.gov.uk,Easysite,Automatically detected
+www.n-somerset.gov.uk,Drupal,Automatically detected
+www.ne-derbyshire.gov.uk,Joomla,Automatically detected
+www.nelincs.gov.uk,WordPress,Automatically detected
+www.newark-sherwooddc.gov.uk,CMS Not Detected,
+www.newcastle-staffs.gov.uk,Drupal,Automatically detected
+www.newcastle.gov.uk,Drupal,Automatically detected
+www.newenfield.gov.uk,Adxstudio,Manual
+www.newforest.gov.uk,GOSS iCM,Manual
+www.newham.gov.uk,Jadu CMS,Manual
+www.newport.gov.uk/en/Home.aspx,Contensis CMS,Automatically detected
+www.norfolk.gov.uk,SiteCore,Automatically detected
+www.north-ayrshire.gov.uk,Contensis CMS,Manual
+www.north-herts.gov.uk,Drupal,Automatically detected
+www.northdevon.gov.uk,Umbraco,Automatically detected
+www.northlincs.gov.uk,WordPress,Automatically detected
+www.northnorfolk.org,Umbraco,Automatically detected
+www.northnorthants.gov.uk,Drupal,Automatically detected
+www.northtyneside.gov.uk,Drupal,Automatically detected
+www.northumberland.gov.uk,Kentico,Automatically detected
+www.northwarks.gov.uk,Jadu CMS,Automatically detected
+www.northyorks.gov.uk,Drupal,Automatically detected
+www.norwich.gov.uk,Jadu CMS,Automatically detected
+www.nottinghamcity.gov.uk,Umbraco,Automatically detected
+www.nottinghamshire.gov.uk,Umbraco,Automatically detected
+www.npt.gov.uk,Umbraco,Manual
+www.nuneatonandbedworth.gov.uk,Jadu CMS,Automatically detected
+www.nwleics.gov.uk,Cuttlefish,Manual
+www.oadby-wigston.gov.uk,Cuttlefish,Manual
+www.oldham.gov.uk,Jadu CMS,Automatically detected
+www.orkney.gov.uk,Nqcontent,Manual
+www.oxford.gov.uk,Jadu CMS,Automatically detected
+www.oxfordshire.gov.uk,Drupal,Automatically detected
+www.pembrokeshire.gov.uk,Ruby on Rails,Manual
+www.pendle.gov.uk,Jadu CMS,Automatically detected
+www.peterborough.gov.uk,i3CMS,Manual
+www.pkc.gov.uk,GOSS iCM,Manual
+www.plymouth.gov.uk,Drupal,Automatically detected
+www.portsmouth.gov.uk,WordPress,Automatically detected
+www.powys.gov.uk,GOSS iCM,Manual
+www.preston.gov.uk,GOSS iCM,Manual
+www.rbkc.gov.uk,Drupal,Automatically detected
+www.rbwm.gov.uk,Drupal,Automatically detected
+www.rctcbc.gov.uk,Contensis CMS,Automatically detected
+www.reading.gov.uk,Wordpress,Manual
+www.redbridge.gov.uk,Umbraco,Manual
+www.redcar-cleveland.gov.uk,Sharepoint,Manual
+www.redditchbc.gov.uk,Umbraco,Automatically detected
+www.reigate-banstead.gov.uk,Jadu CMS,Automatically detected
+www.ribblevalley.gov.uk,Jadu CMS,Automatically detected
+www.richmond.gov.uk,Umbraco,Automatically detected
+www.richmondshire.gov.uk,Umbraco,Automatically detected
+www.rochdale.gov.uk,SharePoint,Automatically detected
+www.rochford.gov.uk,Drupal,Automatically detected
+www.rossendale.gov.uk,Jadu CMS,Automatically detected
+www.rother.gov.uk,WordPress,Automatically detected
+www.rotherham.gov.uk,Jadu CMS,Manual
+www.royalgreenwich.gov.uk,Jadu CMS,Automatically detected
+www.rugby.gov.uk,Jadu CMS,Automatically detected
+www.runnymede.gov.uk,Jadu CMS,Manual
+www.rushcliffe.gov.uk,T4,Manual
+www.rushmoor.gov.uk,GOSS iCM,Manual
+www.rutland.gov.uk,Easysite,Automatically detected
+www.ryedale.gov.uk,WordPress,Automatically detected
+www.salford.gov.uk,Umbraco,Automatically detected
+www.sandwell.gov.uk,Jadu CMS,Automatically detected
+www.scambs.gov.uk,Umbraco,Automatically detected
+www.scarborough.gov.uk,Drupal,Automatically detected
+www.scilly.gov.uk,Drupal,Automatically detected
+www.sedgemoor.gov.uk,GOSS iCM,Manual
+www.sefton.gov.uk,Umbraco,Automatically detected
+www.selby.gov.uk,Drupal,Automatically detected
+www.sevenoaks.gov.uk,Jadu CMS,Automatically detected
+www.sheffield.gov.uk,Adobe Experience Manager,Automatically detected
+www.shetland.gov.uk/,Jadu CMS,Manual
+www.sholland.gov.uk,GOSS iCM,Manual
+www.shropshire.gov.uk,Umbraco,Automatically detected
+www.slough.gov.uk,Jadu CMS,Manual
+www.solihull.gov.uk,Drupal,Automatically detected
+www.somerset.gov.uk,WordPress,Automatically detected
+www.somersetwestandtaunton.gov.uk,Umbraco,Manual
+www.south-norfolk.gov.uk,Jadu CMS,Manual
+www.southampton.gov.uk,Umbraco,
+www.southbucks.gov.uk,GOSS iCM,Automatically detected
+www.southderbyshire.gov.uk/,Web-labs,Manual
+www.southend.gov.uk,Jadu CMS,Manual
+www.southglos.gov.uk,WordPress,Automatically detected
+www.southhams.gov.uk,GOSS iCM,Manual
+www.southkesteven.gov.uk,Umbraco,Automatically detected
+www.southlakeland.gov.uk,Umbraco,Automatically detected
+www.southnorthants.gov.uk,Jadu CMS,Manual
+www.southoxon.gov.uk,WordPress,Automatically detected
+www.southribble.gov.uk,GOSS iCM,Manual
+www.southsomerset.gov.uk,Umbraco,Automatically detected
+www.southtyneside.info,CMS Not Detected,
+www.southwark.gov.uk,Web-labs,Manual
+www.spelthorne.gov.uk,GOSS iCM,Manual
+www.sstaffs.gov.uk,CMS Not Detected,
+www.staffordbc.gov.uk,Drupal,Automatically detected
+www.staffordshire.gov.uk,Contensis CMS,Automatically detected
+www.staffsmoorlands.gov.uk,GOSS iCM,Automatically detected
+www.stalbans.gov.uk,Drupal,Automatically detected
+www.stedmundsbury.gov.uk,CommonSpot,Automatically detected
+www.stevenage.gov.uk,Alterian Content Manager,Manual
+www.sthelens.gov.uk,Umbraco,Automatically detected
+www.stirling.gov.uk/,GOSS iCM,Manual
+www.stockport.gov.uk,Contentful CMS,Manual
+www.stockton.gov.uk,Umbraco,Automatically detected
+www.stoke.gov.uk,Jadu CMS,Manual
+www.strabanedc.org.uk,WordPress,Automatically detected
+www.stratford.gov.uk,In house development,Manual
+www.stroud.gov.uk,Umbraco,Automatically detected
+www.suffolk.gov.uk,SilverStripe CMS,Manual
+www.sunderland.gov.uk,GOSS iCM,Manual
+www.surreycc.gov.uk,Squiz,Automatically detected
+www.surreyheath.gov.uk,Drupal,Automatically detected
+www.sutton.gov.uk,Jadu CMS,Automatically detected
+www.swale.gov.uk,Squiz,Automatically detected
+www.swansea.gov.uk,GOSS iCM,Manual
+www.swindon.gov.uk,Jadu CMS,Automatically detected
+www.tameside.gov.uk,Kentico,Automatically detected
+www.tamworth.gov.uk,Drupal,Automatically detected
+www.tandridge.gov.uk,DNN,Automatically detected
+www.teignbridge.gov.uk,Umbraco,Automatically detected
+www.telford.gov.uk,Jadu CMS,Automatically detected
+www.tendringdc.gov.uk,Drupal,Automatically detected
+www.testvalley.gov.uk,Web-labs,Manual
+www.tewkesbury.gov.uk,Squarespace,Automatically detected
+www.thanet.gov.uk,WordPress,Automatically detected
+www.threerivers.gov.uk,CMS Not Detected,
+www.thurrock.gov.uk,Drupal,Automatically detected
+www.tmbc.gov.uk,Jadu CMS,Manual
+www.torbay.gov.uk,Umbraco,Automatically detected
+www.torfaen.gov.uk,Contensis CMS,Automatically detected
+www.torridge.gov.uk,GOSS iCM,Automatically detected
+www.towerhamlets.gov.uk,Contensis CMS,Automatically detected
+www.trafford.gov.uk,Contensis CMS,Automatically detected
+www.tunbridgewells.gov.uk,Squiz,Automatically detected
+www.uttlesford.gov.uk,GOSS iCM,Automatically detected
+www.valeofglamorgan.gov.uk,Contensis CMS,Automatically detected
+www.wakefield.gov.uk,SharePoint,Automatically detected
+www.walsall.gov.uk,DNN,Automatically detected
+www.walthamforest.gov.uk,Drupal,Automatically detected
+www.wandsworth.gov.uk,Umbraco,Automatically detected
+www.warrington.gov.uk,Drupal,Automatically detected
+www.warwickdc.gov.uk,Jadu CMS,Manual
+www.warwickshire.gov.uk,Jadu CMS,Manual
+www.watford.gov.uk,Jadu CMS,Automatically detected
+www.waverley.gov.uk,DNN,Automatically detected
+www.wealden.gov.uk,WordPress,Automatically detected
+www.welhat.gov.uk,CMS Not Detected,
+www.wellingborough.gov.uk,Jadu CMS,Manual
+www.west-lindsey.gov.uk,Easysite,Automatically detected
+www.west-norfolk.gov.uk,Jadu CMS,Automatically detected
+www.westberks.gov.uk,GOSS iCM,Manual
+www.westdevon.gov.uk,GOSS iCM,Manual
+www.westlancs.gov.uk,Umbraco,Manual
+www.westlothian.gov.uk,GOSS iCM,Manual
+www.westminster.gov.uk,Drupal,Automatically detected
+www.westnorthants.gov.uk,Drupal,Automatically detected
+www.westoxon.gov.uk,Umbraco,Manual
+www.westsussex.gov.uk,Umbraco,Automatically detected
+www.whitehorsedc.gov.uk,WordPress,Automatically detected
+www.wigan.gov.uk,Contensis CMS,Automatically detected
+www.wiltshire.gov.uk,GOSS iCM,Manual
+www.winchester.gov.uk,Web-labs,Manual
+www.wirral.gov.uk,Drupal,Automatically detected
+www.woking.gov.uk,Drupal,Automatically detected
+www.wokingham.gov.uk,Easysite,Automatically detected
+www.wolverhampton.gov.uk,Drupal,Automatically detected
+www.worcester.gov.uk,Joomla,Automatically detected
+www.worcestershire.gov.uk,Jadu CMS,Automatically detected
+www.wrexham.gov.uk,Drupal,Automatically detected
+www.wychavon.gov.uk,Joomla,Automatically detected
+www.wycombe.gov.uk,Contensis CMS,Automatically detected
+www.wyre.gov.uk,Jadu CMS,Manual
+www.wyreforestdc.gov.uk,Umbraco,Automatically detected
+www.york.gov.uk,Jadu CMS,Manual
+www3.halton.gov.uk,SharePoint,Manual
