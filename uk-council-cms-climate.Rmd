@@ -1,0 +1,39 @@
+---
+title: "Is there a correlation Local Government CMS choice and Carbon Impact?"
+output: html_notebook
+---
+
+# Task
+
+Is there a correlation CMS platform and website carbon measurement in Local Government?
+
+# Data Sources
+
+Open Innovations publish monthly snapshots of council website emissions: https://open-innovations.github.io/council-website-emissions/ (data/council-website-emissions.csv)
+
+Dave Briggs and Colin Stenning published the data on councils use of CMS systems: https://sensibletech.co.uk/what-content-management-systems-are-used-in-local-government/ and https://colinstenning.com/2021/11/10/cms-used-by-local-authorities/ (data/council-cms.csv)
+
+# Data prep and processing
+
+council-cms.csv
+
+ * Website URL is used as an identifier in the format <subdomain>.<council>.gov.uk
+ * Trailing slash usage is inconsistent
+ * 386 records
+
+council-website-emissions.csv
+
+ * ONS Code is present as an identifier
+ * Website URL is present in the format https://<subdomain>.<council>.gov.uk
+ * Trailing slash usage is inconsistent
+ * 408 records
+ 
+## Merge data
+
+First we need to get a dataset with all the data from council-website-emissions + an extra column for the CMS, looked up from council-cms.
+
+# TODO
+
+ - load core libs
+ - build one dataframe with cms column added to website emissions
+ - identify if cms usage is correlated to carbon emissions
