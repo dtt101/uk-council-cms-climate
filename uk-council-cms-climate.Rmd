@@ -75,8 +75,12 @@ View(results)
 ```{r}
 # TODO: normalise SharePoint
 # TODO: get mean, min and max - show distribution
-results %>%
+# TODO: need to fix N/A on things like Jadu
+temp = results %>%
 	group_by(CMS) %>%
-	summarise(mean_CO2 = mean(`CO2 emissions (g)`))
-
+	summarise(`Mean CO2 emissions (g)` = mean(`CO2 emissions (g)`, na.rm = TRUE),
+	  `Min CO2 emissions (g)` = min(`CO2 emissions (g)`, na.rm = TRUE),
+    `Max CO2 emissions (g)` = max(`CO2 emissions (g)`, na.rm = TRUE)) %>%
+  arrange(desc(`Mean CO2 emissions (g)`))
+View(temp)
 ```
