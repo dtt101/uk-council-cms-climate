@@ -25,7 +25,7 @@ install.packages("urltools")
 library(tidyverse)  #helps wrangle data
 library(ggplot2)  #helps visualize data
 library(urltools) # helps format URLs
-emissions <- read_csv("csv/council-website-emissions.csv")
+emissions_raw <- read_csv("csv/council-website-emissions.csv")
 cms_raw <- read_csv("csv/council-cms.csv")
 ```
 
@@ -46,13 +46,15 @@ council-website-emissions.csv
 ```{r}
 # First make a column with an extracted domain for the cms dataset
 cms_urls = url_parse(cms_raw$`Council website`)
-cms_domain = suffix_extract(cms_urls$domain)
-cms = cbind(cms_raw, cms_domain)
+cms_domains = suffix_extract(cms_urls$domain)
+cms = cbind(cms_raw, cms_domains)
 View(cms)
 # TODO
 # Next lets make an extracted domain for the emissions dataset
-# Then let's merge the 2 datasets on domain
-# Then let's analyse for any correlation between cms and emissions
+emissions_urls = url_parse(emissions_raw$Website)
+emissions_domains = suffix_extract(emissions_urls$domain)
+emissions = cbind(emissions_raw, emissions_domains)
+View(emissions)
 ```
 
 ## Merge data
@@ -60,10 +62,21 @@ View(cms)
 First we need to get a dataset with all the data from council-website-emissions.csv + an extra column for the CMS, looked up from council-cms.csv.
 
 ```{r}
-merge(emissions, cms, by.x = "Website", by.y = "Council website", all.x = TRUE)
+results = merge(emissions, cms, by = "domain", all = TRUE) %>%
+  select(`ONS Code`, `Council name`, domain, CMS, `CO2 emissions (g)`)
+View(results)
+
 ```
 
-# TODO
+# Analysis
 
--   build one dataframe with cms column added to website emissions
--   identify if cms usage is correlated to carbon emissions
+-   identify if cms usage is correlated to carbon emissions - each CMS - min, max and mean
+
+```{r}
+# TODO: normalise SharePoint
+# TODO: get mean, min and max - show distribution
+results %>%
+	group_by(CMS) %>%
+	summarise(mean_CO2 = mean(`CO2 emissions (g)`))
+
+```
