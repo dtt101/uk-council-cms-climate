@@ -15,25 +15,55 @@ Dave Briggs and Colin Stenning published the data on councils use of CMS systems
 
 # Data prep and processing
 
+```{r}
+#install packages
+install.packages("urltools") 
+
+```
+
+```{r}
+library(tidyverse)  #helps wrangle data
+library(ggplot2)  #helps visualize data
+library(urltools) # helps format URLs
+emissions <- read_csv("csv/council-website-emissions.csv")
+cms_raw <- read_csv("csv/council-cms.csv")
+```
+
 council-cms.csv
 
--   Website URL is used as an identifier in the format <subdomain>.<council>.gov.uk
+-   Website URL is used as an identifier in an inconsistent format, most often: <subdomain>.<council>.gov.uk
 -   Trailing slash usage is inconsistent
 -   386 records
+-   Renamed column to 'Website' to match other data
 
 council-website-emissions.csv
 
 -   ONS Code is present as an identifier
--   Website URL is present in the format <https://><subdomain>.<council>.gov.uk
+-   Website URL is present in an inconsistent format, most often: <https://><subdomain>.<council>.gov.uk
 -   Trailing slash usage is inconsistent
 -   408 records
+
+```{r}
+# First make a column with an extracted domain for the cms dataset
+cms_urls = url_parse(cms_raw$`Council website`)
+cms_domain = suffix_extract(cms_urls$domain)
+cms = cbind(cms_raw, cms_domain)
+View(cms)
+# TODO
+# Next lets make an extracted domain for the emissions dataset
+# Then let's merge the 2 datasets on domain
+# Then let's analyse for any correlation between cms and emissions
+```
 
 ## Merge data
 
 First we need to get a dataset with all the data from council-website-emissions.csv + an extra column for the CMS, looked up from council-cms.csv.
 
+```{r}
+merge(emissions, cms, by.x = "Website", by.y = "Council website", all.x = TRUE)
+```
+
 # TODO
 
--   load core libs
 -   build one dataframe with cms column added to website emissions
 -   identify if cms usage is correlated to carbon emissions
