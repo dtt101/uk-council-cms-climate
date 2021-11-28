@@ -80,7 +80,9 @@ temp = results %>%
 	group_by(CMS) %>%
 	summarise(`Mean CO2 emissions (g)` = mean(`CO2 emissions (g)`, na.rm = TRUE),
 	  `Min CO2 emissions (g)` = min(`CO2 emissions (g)`, na.rm = TRUE),
-    `Max CO2 emissions (g)` = max(`CO2 emissions (g)`, na.rm = TRUE)) %>%
+    `Max CO2 emissions (g)` = max(`CO2 emissions (g)`, na.rm = TRUE),
+	  `Website Count` = n(),
+	  ) %>%
   arrange(desc(`Mean CO2 emissions (g)`))
 View(temp)
 ```
