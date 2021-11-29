@@ -34,7 +34,7 @@ council-cms.csv
 -   Website URL is used as an identifier in an inconsistent format, most often: <subdomain>.<council>.gov.uk
 -   Trailing slash usage is inconsistent
 -   386 records
--   Renamed column to 'Website' to match other data
+-   CMS values are inconsistent (eg 'WordPress' vs 'Wordpress')
 
 council-website-emissions.csv
 
@@ -64,7 +64,9 @@ First we need to get a dataset with all the data from council-website-emissions.
 ```{r}
 results = merge(emissions, cms, by = "domain", all = TRUE) %>%
   select(`ONS Code`, `Council name`, domain, CMS, `CO2 emissions (g)`)
-View(results)
+# Make CMS names consistent
+results$CMS[results$CMS == 'Wordpress'] <- 'WordPress'
+results$CMS[results$CMS == 'Sharepoint'] <- 'SharePoint'
 
 ```
 
@@ -73,9 +75,6 @@ View(results)
 -   identify if cms usage is correlated to carbon emissions - each CMS - min, max and mean
 
 ```{r}
-# TODO: normalise SharePoint
-# TODO: get mean, min and max - show distribution
-# TODO: need to fix N/A on things like Jadu
 temp = results %>%
 	group_by(CMS) %>%
 	summarise(`Mean CO2 emissions (g)` = mean(`CO2 emissions (g)`, na.rm = TRUE),
@@ -83,6 +82,27 @@ temp = results %>%
     `Max CO2 emissions (g)` = max(`CO2 emissions (g)`, na.rm = TRUE),
 	  `Website Count` = n(),
 	  ) %>%
-  arrange(desc(`Mean CO2 emissions (g)`))
-View(temp)
+  arrange(desc(CMS))
+
 ```
+
+```{r}
+p = ggplot(results, aes(x= `CO2 emissions (g)`, y = CMS, colour=CMS)) + geom_point()
+p + labs(title = "CO2 emissions (g) for Local Government Websites by CMS", subtitle = "October 2021")
+
+
+```
+
+# Conclusions
+
+Before drawing any conclusions, it is important to be aware that:
+
+-   **The CMS data and emissions samples were carried out at different time in 2021.** LocalGov CMS platforms don't change regularly, but there is still a risk of incorrectly attributed emissions data, which becomes especially serious when looking at outliers and drawing incorrect conclusions
+
+-   Some CMS platforms do not have enough websites for any conclusions to be statistically significant
+
+Given the above we can however conclude that there is no significant correlation between CMS platform and the emissions profile you want to achieve.
+
+Of the more popular platforms, Contensis, GOSS and WordPress have the least website instances with high emissions.
+
+Given the lack of significant correlation it suggests that a valuable place to focus more research may be answering "Is it better to focus on the specific content on the page above optimizing the source code, for example image size?"
