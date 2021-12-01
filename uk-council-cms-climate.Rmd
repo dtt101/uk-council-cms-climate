@@ -67,6 +67,8 @@ results = merge(emissions, cms, by = "domain", all = TRUE) %>%
 # Make CMS names consistent
 results$CMS[results$CMS == 'Wordpress'] <- 'WordPress'
 results$CMS[results$CMS == 'Sharepoint'] <- 'SharePoint'
+# Remove CMS Not Detected
+results = subset(results, CMS!='CMS Not Detected')
 
 ```
 
@@ -77,13 +79,40 @@ results$CMS[results$CMS == 'Sharepoint'] <- 'SharePoint'
 ```{r}
 temp = results %>%
 	group_by(CMS) %>%
-	summarise(`Mean CO2 emissions (g)` = mean(`CO2 emissions (g)`, na.rm = TRUE),
+	summarise(
+	  `Mean CO2 emissions (g)` = mean(`CO2 emissions (g)`, na.rm = TRUE),
+	  `Median CO2 emissions (g)` = median(`CO2 emissions (g)`, na.rm = TRUE),
 	  `Min CO2 emissions (g)` = min(`CO2 emissions (g)`, na.rm = TRUE),
     `Max CO2 emissions (g)` = max(`CO2 emissions (g)`, na.rm = TRUE),
 	  `Website Count` = n(),
-	  ) %>%
-  arrange(desc(CMS))
+	  )
+  
 
+# Calculate mean of CMS where we have enough instances 
+temp2 = temp %>%
+  filter(`Website Count` > 4) %>% 
+  arrange(desc(`Mean CO2 emissions (g)`))
+topten <- temp2[1:10,]
+
+topten %>% 
+  ggplot(aes(x= reorder(CMS, `Mean CO2 emissions (g)`), y = `Mean CO2 emissions (g)`, fill=CMS)) +
+  geom_col() + 
+  theme(axis.text.x=element_text(angle = 45, vjust = 0.5)) + 
+  ggtitle("Top 10 Mean Carbon Emissions by CMS for Council Websites") +
+  xlab("CMS")
+
+# Calculate median of CMS where we have enough instances
+temp2 = temp %>%
+  filter(`Website Count` > 4) %>% 
+  arrange(desc(`Median CO2 emissions (g)`))
+topten <- temp2[1:10,]
+
+topten %>% 
+  ggplot(aes(x= reorder(CMS, `Median CO2 emissions (g)`), y = `Median CO2 emissions (g)`, fill=CMS)) +
+  geom_col() + 
+  theme(axis.text.x=element_text(angle = 45, vjust = 0.5)) + 
+  ggtitle("Top 10 Median Carbon Emissions by CMS for Council Websites") +
+  xlab("CMS")
 ```
 
 ```{r}
